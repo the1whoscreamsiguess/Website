@@ -1,0 +1,172 @@
+@font-face {
+ font-family: font1; /* set name */
+ src: url(./fonts/font1.woff2); /* url of the font */
+}
+
+
+.big-text {
+ font-size: 32px;
+ font-weight: bold;
+}
+
+/* top bar */
+nav {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ border-image-source: url('./images/frame.png');   
+ border-image-slice: 12 fill;	
+ border-image-width: 8px;
+ border-image-repeat: repeat;
+}
+
+p {
+	margin: 10px;
+}
+
+nav a:link, nav a:visited {
+ margin: 6px 5px;
+ padding: 5px 19px;
+ border-image-source: url('./images/button.png');   
+ border-image-slice: 8 fill;	
+ border-image-width: 8px;
+ border-image-repeat: repeat;
+ text-decoration: none;
+ font-size: 32px;
+ color: #004d04;
+}
+
+nav a:hover {
+ filter: brightness(150%) hue-rotate(-20deg) saturate(90%);
+}
+
+nav a:active {
+ filter: brightness(90%) hue-rotate(5deg);
+}
+
+a:link {
+ color: #1a8f00;
+}
+
+a:visited {
+ color: #004d04;
+}
+
+body {
+ max-width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: font1, Arial, Helvetica, sans-serif;
+ font-size: 26px;
+ background-image: url("./images/bg.png");
+ background-color: #bdff8f;
+ background-repeat: repeat;
+ image-rendering: pixelated;
+}
+
+.solocontainer {
+ border-image-source: url('./images/frame.png');   
+ border-image-slice: 12 fill;	
+ border-image-width: 12px;
+ border-image-repeat: repeat;
+ margin: 2px;
+ padding: 5px 15px;
+}
+
+.floatimage {
+	float: left;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+textarea {
+	border: 1px solid #006600;
+}
+
+outer-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+  border-image-source: url('./images/bgframe.png');   
+ border-image-slice: 40 fill;	
+ border-image-width: 40px;
+ border-image-repeat: repeat;
+}
+
+inner-container {
+ display: flex;
+ flex-direction: column;
+}
+
+inner-container div {
+ border-image-source: url('./images/frame.png');   
+ border-image-slice: 12 fill;	
+ border-image-width: 12px;
+ border-image-repeat: repeat;
+ margin: 2px;
+ padding: 5px 15px;
+}
+
+footer {
+ font-family: font1, Arial, Helvetica, sans-serif;
+ padding: 1px;
+ margin: auto;
+ margin-top: 10px;
+ width: 66%;
+ border-image-source: url('./images/frame.png');   
+ border-image-slice: 12 fill;	
+ border-image-width: 12px;
+ border-image-repeat: repeat;
+}
+
+footer div {
+	 display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 10px;
+}
+
+footer img {
+	padding: 2px;
+}
+
+/* https://stackoverflow.com/questions/21233033/how-can-i-create-a-marquee-effect */
+.marquee {
+ width: 100%;
+ margin: 0 auto;
+ font-size: 32px;
+ white-space: nowrap;
+ overflow: hidden;
+ box-sizing: border-box;
+ display: inline-flex;
+}
+
+.marquee span {
+ display: flex;        
+ flex-basis: 100%;
+ width: 100%;
+ animation: marquee 20s linear infinite;
+ animation-play-state: running;  	
+}
+
+@keyframes marquee {
+ 0% {
+ transform: translate(100%, 0);
+ }    
+ 100% {
+ transform: translate(-50%, 0);
+ }
+ }
+}
+@keyframes marquee-reset {
+ 0% {
+ transform: translate(0%, 0);
+ }  
+}
