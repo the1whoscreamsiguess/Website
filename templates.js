@@ -72,7 +72,11 @@ var splashtext = [
 "//TODO - review why the hell you're doing this?",
 "Debug.LogError(\"WTF?\");",
 "UnityEngine.Debug.Log(\"FAILED!!!!!!!!!!!!!!!!!!!!!\")",
-"Blue carrots are bad for you!"
+"Blue carrots are bad for you!",
+"Do NOT press T in the Remix config",
+"Welcome to P- I mean Rain World",
+"Contains infinite genders!",
+"Not that Watcher, the other one"
 ]
 
 if (document.getElementById("prefab-header") != null)

@@ -1,6 +1,14 @@
 var json = `{
 	"mods": [
     {
+      "name": "Riflemaster",
+	  "icon": "./modicons/riflemaster.png",
+	  "year": "2026",
+	  "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3823144640",
+	  "github": "https://github.com/the1whoscreamsiguess/Riflemaster",
+      "desc": "Allows Spearmaster to use their needles as rifle ammo. I made this mod because the thought of turning everything into pincushions amused me."
+    },
+	{
       "name": "Coral Grapple",
 	  "icon": "./modicons/coralgrapple.png",
 	  "year": "2026",

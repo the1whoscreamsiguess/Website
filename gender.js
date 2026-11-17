@@ -1,3 +1,4 @@
+//
 var genders = [
 "//TODO fill this in",
 "new Gender();",
@@ -59,7 +60,8 @@ var genders = [
 "<img src=\"./images/tumblr.png\">",
 "<img src=\"./images/brokenimage.png\">",
 "<img src=\"./images/underconstruction.gif\">",
-"My dear sir, there are individuals roaming the streets of Fallen London at this very moment with the faces of squid! Squid! Do you ask them their gender? And yet you waste our time asking me trifling and impertinent questions about mine? It is my own business, sir, and I bid you good day."
+"My dear sir, there are individuals roaming the streets of Fallen London at this very moment with the faces of squid! Squid! Do you ask them their gender? And yet you waste our time asking me trifling and impertinent questions about mine? It is my own business, sir, and I bid you good day.",
+"Anonymous"
 ]
 
 if (document.getElementById("gender") != null)
